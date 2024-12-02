@@ -4,7 +4,7 @@
 
 | Data       | Versão | Descrição      | Autores                                         |
 | ---------- | ------ | -------------- | ----------------------------------------------- |
-| 02/12/2024 | 1.0    | Versão Inicial | Alessandro Souza, Ariane Silveira, Cibele Diniz |
+| 02/12/2024 | 1.0    | Versão Inicial | Radmila Gama |
 
 ---
 
