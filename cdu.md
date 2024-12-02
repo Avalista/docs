@@ -20,20 +20,26 @@ SEM NOME
 - Usuário Avaliador
 
 ## Outros atores:
-- Administrador do sistema (para monitorar avaliações).
+- Não há
 
 ## Evento disparador:
-- O usuário seleciona o botão "Avaliar" no ponto de interesse desejado.
+- O usuário seleciona o botão "Avaliar" no projeto escolhido.
 
 ## Fluxo normal:
 1. O usuário acessa o painel de avaliação.
-2. O sistema exibe os critérios e as opções de avaliação disponíveis.
-3. O usuário seleciona o número de estrelas e insere um comentário (opcional).
-4. O usuário clica no botão "Enviar Avaliação".
-5. O sistema valida os dados inseridos.
-6. O sistema registra a avaliação no banco de dados.
-7. O sistema exibe uma mensagem de sucesso para o usuário.
-8. O sistema atualiza o dashboard de métricas.
+2. O sistema os casos de uso disponíveis
+3. O usuário seleciona um caso de uso
+4. O sistema mostra quais telas fazem parte do fluxo desse caso de uso
+5. O usuário clica em iniciar
+6. O sistema exibe a primeira tela
+7. O usuário selecione a parte da tela que fere alguma heurística
+8. O sistema mostra um painel
+9. O usuário selecione qual heurística foi ferida, descreva uma sugestão de melhoria e qual é o esforço para corrigir
+10. Na última tela, o usuário clica no botão "Enviar Avaliação".
+11. O sistema valida os dados inseridos.
+12. O sistema registra a avaliação no banco de dados.
+13. O sistema exibe uma mensagem de sucesso para o usuário.
+14. O sistema atualiza o dashboard de métricas.
 
 ## Fluxos alternativos e de exceção:
 - **Passo 5:** Caso os dados inseridos sejam inválidos (exemplo: comentário excedendo limite de caracteres), o sistema exibe uma mensagem de erro e solicita correção.
