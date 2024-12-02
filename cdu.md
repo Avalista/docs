@@ -1,7 +1,7 @@
 # Caso de Uso: Avaliação de Heurísticas no Sistema
 
 ## Nome:
-Avaliação de Heurísticas no Sistema
+SEM NOME
 
 ## Pré-condição:
 - O usuário deve estar autenticado no sistema.
