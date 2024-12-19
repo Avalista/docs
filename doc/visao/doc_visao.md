@@ -5,12 +5,13 @@
 | Data       | Versão | Descrição      | Autores                                         |
 | ---------- | ------ | -------------- | ----------------------------------------------- |
 | 02/12/2024 | 1.0    | Versão Inicial | Radmila Gama |
+| 19/12/2024 | 1.1    | Revisão do Escopo e dos Usuários | Radmila Gama |
 
 ---
 
 ## Objetivo
 
-O principal objetivo da aplicação é fornecer uma plataforma onde usuários possam avaliar projetos de software e interfaces gráficas com base nas heurísticas de usabilidade. A aplicação permitirá a criação e o gerenciamento de projetos com foco na análise de usabilidade, incentivando a melhoria contínua de interfaces digitais e promovendo uma abordagem colaborativa para identificar problemas e propor melhorias.
+O principal objetivo da aplicação é fornecer uma plataforma onde Designers possam avaliar projetos de software e interfaces gráficas com base nas heurísticas de usabilidade, utilizando como base a lista Eureca, criada e documentada por Silvia Matos, Marília Aranha, Isis Duarte e Ramon Vieira. A aplicação permitirá a criação e o gerenciamento de projetos com foco na análise de usabilidade, incentivando a melhoria contínua de interfaces digitais e promovendo a qualidade e precisão na hora de identificar problemas. Além de ser uma ferramenta para identificação, é também idealizada para construir a solução das heurísticas que foram feridas, ao relatar o esforço para que o problema seja resolvido. Com esses dados, a aplicação irá gerar relatório com uso de gráficos e métricas para o avaliador e o cliente.
 
 ---
 
@@ -20,7 +21,7 @@ O principal objetivo da aplicação é fornecer uma plataforma onde usuários po
 Falta de uma plataforma específica para avaliar interfaces gráficas com base em heurísticas de usabilidade.
 
 **Afetando:**
-Equipes de desenvolvimento e designers que precisam identificar e corrigir problemas de usabilidade de forma sistemática.
+Equipes de desenvolvimento e designers que precisam identificar e corrigir problemas de usabilidade de forma sistemática, precisa e com qualidade.
 
 **Cujo impacto é:**
 Dificuldade em documentar violações de heurísticas, propor melhorias e priorizar correções de maneira organizada.
@@ -35,46 +36,37 @@ Uma aplicação web que permita a avaliação de projetos, incluindo upload de i
 | Nome          | Descrição                                                     | Responsabilidade                                                             |
 | ------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | Avaliador     | Especialista ou membro da equipe                              | Avaliar os projetos com base nas heurísticas, fornecer feedback e sugestões. |
-| Administrador | Gestor do sistema                                             | Gerenciar usuários, projetos e configurações do sistema.                     |
 | Cliente       | Usuário que vai receber a avaliação e o feedback do avaliador | Criar conta; Acessar relatórios;                                             |
+| Administrador | Gestor do sistema                                             | Gerenciar usuários, projetos e configurações do sistema.                     |
 
 ---
 
 ## Descrição do Ambiente dos Usuários
 
-Os usuários poderão acessar a aplicação por meio de qualquer dispositivo com acesso à internet e um navegador atualizado. O sistema será responsivo, suportando acesso em dispositivos móveis e desktops.
+Os usuários poderão acessar a aplicação por meio de qualquer dispositivo com acesso à internet e um navegador atualizado. O sistema será com foco no desktop, mas terá uma versãon responsiva para celular, na qual mostrará apenas os relatórios dos projetos.
 
 ---
 
 ## Principais Necessidades dos Usuários
 
 1. **Avaliadores:** Precisam de uma ferramenta que permita identificar e documentar violações de heurísticas com facilidade, incluindo o upload de imagens e a descrição de melhorias.
-2. **Administradores:** Necessitam gerenciar usuários, projetos e manter a integridade das informações cadastradas.
-3. **Cliente:** Precisam acessar relatórios claros sobre a análise de usabilidade, incluindo detalhes de violações e propostas de melhorias.
+2. **Cliente:** Precisam acessar relatórios claros sobre a análise de usabilidade, incluindo detalhes de violações e propostas de melhorias.
+3. **Administradores:** Necessitam gerenciar usuários, projetos e manter a integridade das informações cadastradas.
 
 ---
 
 ## Alternativas Concorrentes
 
-1. **Heuristic Evaluation Tool (HET):**
 
-   - Pontos positivos: Interface intuitiva, suporte para classificação de gravidade.
-   - Pontos negativos: Limitações na personalização de projetos e ausência de recursos para upload de imagens.
-
-2. **Usability Hub:**
-
-   - Pontos positivos: Ferramentas para teste de usabilidade, ampla base de usuários.
-   - Pontos negativos: Foco em testes gerais, não específico para heurísticas.
-
----
+1. Lyssna
 
 ## Visão Geral do Produto
 
 A aplicação será uma ferramenta web para avaliação de usabilidade com foco em heurísticas. Permitíra aos usuários:
 
 - Criar e gerenciar projetos, incluindo nome, descrição e logotipo.
-- Adicionar casos de uso e selecionar imagens para avaliação.
-- Identificar violações de princípios, classificá-las e propor melhorias.
+- Adicionar casos de uso ao projeto e selecionar imagens para avaliação.
+- Identificar violações de princípios, identificar a heuristica ferida, selecionar o esforço e propor melhorias.
 - Gerar relatórios detalhados com base nas análises realizadas.
 
 ---
@@ -83,7 +75,7 @@ A aplicação será uma ferramenta web para avaliação de usabilidade com foco 
 
 | Código | Nome                          | Descrição                                                                                  | Prioridade |
 | ------ | ----------------------------- | ------------------------------------------------------------------------------------------ | ---------- |
-| F01    | Cadastro de Projetos          | Criar, editar e excluir projetos com nome, descrição e logotipo.                           | Essencial  |
+| F01    | Cadastro de Projetos          | Criar, editar e excluir projetos com nome, descrição e logotipo e se tiver, o nome do cliente.                           | Essencial  |
 | F02    | Gerenciamento de Casos de Uso | Adicionar e gerenciar casos de uso associados a projetos.                                  | Essencial  |
 | F03    | Upload de Imagens             | Fazer upload de imagens para cada caso de uso.                                             | Essencial  |
 | F04    | Classificação de Heurísticas  | Associar violações de heurísticas a imagens, com descrição e proposta de melhoria.         | Essencial  |
