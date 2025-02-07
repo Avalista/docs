@@ -6,13 +6,13 @@
 | ---------- | ------ | -------------- | ----------------------------------------------- |
 | 02/12/2024 | 1.0    | Versão Inicial | Radmila Gama |
 | 19/12/2024 | 1.1    | Revisão do Escopo e dos Usuários | Radmila Gama |
+| 01/02/2025 | 1.2    | Correções do texto com os comentários da orientadora.  | Radmila Gama |
 
 ---
 
 ## Objetivo
 
-O principal objetivo da aplicação é fornecer uma plataforma onde Designers possam avaliar projetos de software e interfaces gráficas com base nas heurísticas de usabilidade, utilizando como base a lista Eureca, criada e documentada por Silvia Matos, Marília Aranha, Isis Duarte e Ramon Vieira. A aplicação permitirá a criação e o gerenciamento de projetos com foco na análise de usabilidade, incentivando a melhoria contínua de interfaces digitais e promovendo a qualidade e precisão na hora de identificar problemas. Além de ser uma ferramenta para identificação, é também idealizada para construir a solução das heurísticas que foram feridas, ao relatar o esforço para que o problema seja resolvido. Com esses dados, a aplicação irá gerar relatório com uso de gráficos e métricas para o avaliador e o cliente.
-
+O principal objetivo da aplicação é fornecer uma plataforma onde alunos possam avaliar interfaces gráficas com base nas diretrizes de design, utilizando como base a Lista Eureca, criada e documentada por Silvia Matos, Marília Aranha, Isis Duarte e Ramon Vieira. A aplicação permitirá a criação e o gerenciamento de projetos com foco na avaliação das interfaces gráficas, incentivando a melhoria contínua delas e promovendo a qualidade e sistematização na hora de identificar problemas. Além de ser uma ferramenta para apoio computacional a identificação de problemas, é também idealizada para permitir o registro da proposta de solução para as diretrizes que foram feridas de acordo com a avaliação, além de relatar a gravidade do problema detectado e o esforço para que o mesmo seja resolvido. Com esses dados, a aplicação irá gerar relatório final da avaliação com uso de gráficos e métricas para o avaliador.
 ---
 
 ## Descrição do Problema
@@ -21,7 +21,7 @@ O principal objetivo da aplicação é fornecer uma plataforma onde Designers po
 Falta de uma plataforma específica para avaliar interfaces gráficas com base em heurísticas de usabilidade.
 
 **Afetando:**
-Equipes de desenvolvimento e designers que precisam identificar e corrigir problemas de usabilidade de forma sistemática, precisa e com qualidade.
+Alunos de TADS que precisam identificar e corrigir problemas de design de forma sistemática.
 
 **Cujo impacto é:**
 Dificuldade em documentar violações de heurísticas, propor melhorias e priorizar correções de maneira organizada.
@@ -59,6 +59,9 @@ Os usuários poderão acessar a aplicação por meio de qualquer dispositivo com
 
 
 1. Lyssna
+2. Heurix | A free heuristic evaluation tool
+Trata-se de uma ferramenta utilizada para avaliar telas por meio de questionários. A avaliação começa imediatamente após o login, quando o usuário é solicitado a criar um projeto. Em seguida, as perguntas são iniciadas, organizadas em diferentes categorias: Primeiras Impressões (First Impressions), Navegação do Site (Site Navigation), Informações (Information), Confiança e Persuasão (Trust and Persuasion), Interação (Interaction), Formulários (Forms) e Pesquisa (Search).
+
 
 ## Visão Geral do Produto
 
