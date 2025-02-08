@@ -79,7 +79,7 @@ A UX Check utiliza a lista de diretrizes de Nielsen e quando o usuário selecion
 
 Por fim, após a avaliação, é possível que o usuário baixe a avaliação como um arquivo do tipo docs.
 
-<img src=”uxcheck.jpg”>
+<img src="uxcheck.jpg">
 
 ## Visão Geral do Produto
 
