@@ -6,7 +6,7 @@
 | ---------- | ------ | -------------- | ----------------------------------------------- |
 | 02/12/2024 | 1.0    | Versão Inicial | Radmila Gama |
 | 19/12/2024 | 1.1    | Revisão do Escopo e dos Usuários | Radmila Gama |
-| 01/02/2025 | 1.2    | Correções do texto com os comentários da orientadora.  | Radmila Gama |
+| 01/02/2025 | 2.0    | Alteração no escopo e na ideia do projeto  | Radmila Gama |
 
 ---
 
@@ -35,8 +35,7 @@ Uma aplicação web que permita a avaliação de projetos, incluindo upload de i
 
 | Nome          | Descrição                                                     | Responsabilidade                                                             |
 | ------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| Avaliador     | Especialista ou membro da equipe                              | Avaliar os projetos com base nas heurísticas, fornecer feedback e sugestões. |
-| Cliente       | Usuário que vai receber a avaliação e o feedback do avaliador | Criar conta; Acessar relatórios;                                             |
+| Avaliador     | Alunos desenvolvedores e designers.                           | Avaliar os projetos com base nas heurísticas, fornecer feedback e sugestões. |
 | Administrador | Gestor do sistema                                             | Gerenciar usuários, projetos e configurações do sistema.                     |
 
 ---
@@ -49,9 +48,8 @@ Os usuários poderão acessar a aplicação por meio de qualquer dispositivo com
 
 ## Principais Necessidades dos Usuários
 
-1. **Avaliadores:** Precisam de uma ferramenta que permita identificar e documentar violações de heurísticas com facilidade, incluindo o upload de imagens e a descrição de melhorias.
-2. **Cliente:** Precisam acessar relatórios claros sobre a análise de usabilidade, incluindo detalhes de violações e propostas de melhorias.
-3. **Administradores:** Necessitam gerenciar usuários, projetos e manter a integridade das informações cadastradas.
+1. **Avaliadores:** Precisam de uma ferramenta que permita identificar e documentar violações de heurísticas com facilidade, incluindo o upload de imagens e a descrição de melhorias. Além disso, terão acesso a métricas detalhadas sobre as violações registradas, permitindo uma análise mais precisa e facilitando a priorização e resolução dos problemas identificados. Essas métricas ajudarão a compreender a recorrência das falhas e a eficiência das soluções aplicadas ao longo do tempo.
+2. **Administradores:** Necessitam gerenciar usuários, projetos e manter a integridade das informações cadastradas.
 
 ---
 
@@ -59,9 +57,19 @@ Os usuários poderão acessar a aplicação por meio de qualquer dispositivo com
 
 
 1. Lyssna
-2. Heurix | A free heuristic evaluation tool
+2. [Heurix | A free heuristic evaluation tool]([url](https://www.heurix.io))
 Trata-se de uma ferramenta utilizada para avaliar telas por meio de questionários. A avaliação começa imediatamente após o login, quando o usuário é solicitado a criar um projeto. Em seguida, as perguntas são iniciadas, organizadas em diferentes categorias: Primeiras Impressões (First Impressions), Navegação do Site (Site Navigation), Informações (Information), Confiança e Persuasão (Trust and Persuasion), Interação (Interaction), Formulários (Forms) e Pesquisa (Search).
+<img src"heurix-home.png">
+Essa aplicação não segue nenhuma lista de diretrizes ou heurísticas de usabilidade como referência, baseando-se apenas em perguntas objetivas com respostas limitadas a "Yes" (Sim), "Room to Improve" (Tem como melhorar), "No" (Não) e "Not Applicable" (Não se aplica). Isso significa que não há um conjunto estruturado de princípios reconhecidos, como as heurísticas de Nielsen ou as diretrizes da ISO, para fundamentar a avaliação.
 
+
+A ausência de um referencial teórico claro pode comprometer a profundidade da análise, tornando-a subjetiva e inconsistente. Sem diretrizes bem estabelecidas, os avaliadores podem interpretar os critérios de diferentes formas, levando a conclusões variadas e menos confiáveis. Além disso, uma lista de heurísticas ajudaria a garantir que aspectos essenciais da usabilidade sejam cobertos de maneira sistemática, enquanto um modelo de perguntas objetivas pode deixar lacunas importantes na avaliação. Isso pode resultar em diagnósticos superficiais e recomendações imprecisas para melhorias, reduzindo a eficácia do processo de avaliação.
+
+
+Outra limitação da aplicação é que o questionário é aplicado ao sistema como um todo, em vez de ser direcionado a casos de uso específicos. Isso significa que as perguntas são formuladas de maneira genérica, avaliando o sistema de forma global, sem considerar fluxos específicos de interação. Como consequência, uma determinada funcionalidade, como a tela inicial, pode atender corretamente aos critérios avaliados, enquanto uma página interna pode apresentar problemas que passam despercebidos. Essa abordagem ampla e pouco detalhada torna a ferramenta ineficiente para a avaliação de interfaces, pois não identifica com precisão os pontos críticos de usabilidade em diferentes partes do sistema.
+
+
+Apesar dos problemas anteriormente citados, o Heurix permite que o usuário adicione uma imagem e uma nota por cada pergunta. A inserção desses dados contribui para os resultados obtidos pelo avaliador, o que, consequentemente, colabora para a resolução do problema encontrado na interface. Outro ponto positivo encontrado na aplicação é mostrado quando o avaliador termina de responder todas as perguntas e a interface mostra um quadro com a pontuação sobre as perguntas respondidas. 
 
 ## Visão Geral do Produto
 
@@ -96,5 +104,3 @@ A aplicação será uma ferramenta web para avaliação de usabilidade com foco 
 | NF01   | Segurança dos Dados       | As informações armazenadas devem ser protegidas com autenticação e criptografia.   | Segurança       | Obrigatório   |   |
 | NF02   | Tempo de Resposta         | O sistema deve carregar os projetos e as demais  em menos de 1 minuto.             | Desempenho      | Desejável     |   |
 | NF03   | Ambiente de funcionamento | O sistema deve funcionar nos navegadores mais usados, como Chrome, Firefox e Edge. | Desenvolvimento | Essencial     |   |
-|        |                           |                                                                                    |                 |               |   |
-
