@@ -105,6 +105,7 @@ A aplicação será uma ferramenta web para avaliação de usabilidade com foco 
 | F07    | Avaliação de Esforço          | Estimar o esforço necessário para corrigir o problema.                                            | Essencial  |
 | F08    | Proposta de Melhoria          | O avaliador precisa descrever como resolver aquele problema.                                      | Essencial  |
 | F09    | Relatórios                    | Gerar relatórios detalhados por projeto, caso de uso e imagem.                                    | Desejável  |
+| F10    | Classificação das Violações   | Na exibição das métricas, o sistema deve mostrar a classificação das métricas com base na gravidade, no esforço que leva para resolver e também na quantidade de vezes que aquela diretriz é violada                                   | Desejável  |
 
 ---
 
