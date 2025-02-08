@@ -55,9 +55,7 @@ Os usuários poderão acessar a aplicação por meio de qualquer dispositivo com
 
 ## Alternativas Concorrentes
 
-
-1. Lyssna
-2. [Heurix | A free heuristic evaluation tool]([url](https://www.heurix.io))
+1. [Heurix | A free heuristic evaluation tool]([url](https://www.heurix.io))
 Trata-se de uma ferramenta utilizada para avaliar telas por meio de questionários. A avaliação começa imediatamente após o login, quando o usuário é solicitado a criar um projeto. Em seguida, as perguntas são iniciadas, organizadas em diferentes categorias: Primeiras Impressões (First Impressions), Navegação do Site (Site Navigation), Informações (Information), Confiança e Persuasão (Trust and Persuasion), Interação (Interaction), Formulários (Forms) e Pesquisa (Search).
 
 <img src="heurix-home.png">
@@ -73,29 +71,40 @@ Outra limitação da aplicação é que o questionário é aplicado ao sistema c
 
 Apesar dos problemas anteriormente citados, o Heurix permite que o usuário adicione uma imagem e uma nota por cada pergunta. A inserção desses dados contribui para os resultados obtidos pelo avaliador, o que, consequentemente, colabora para a resolução do problema encontrado na interface. Outro ponto positivo encontrado na aplicação é mostrado quando o avaliador termina de responder todas as perguntas e a interface mostra um quadro com a pontuação sobre as perguntas respondidas. 
 
+2. Extensão UX Check
+
+A extensão não funciona mais, porém a página de detalhes dela apresenta fotos e uma descrição de como ela funciona. A extensão possui uma ferramenta para o usuário selecionar a parte da tela que possui erros, a aplicação dá a entender que essa extensão funciona para qualquer website e que essa ferramenta tira um print da tela completa exibida para o usuário quando ele seleciona a parte que possui erros. 
+
+A UX Check utiliza a lista de diretrizes de Nielsen e quando o usuário seleciona a parte com erros, uma janela aparece para que ele selecione qual heurística representa aquele erro. Para complementar a avaliação, o usuário também precisa informar a gravidade do problema, ele pode deixar notas e comentários de recomendações para que o problema seja resolvido.
+
+Por fim, após a avaliação, é possível que o usuário baixe a avaliação como um arquivo do tipo docs.
+
+<img src=”uxcheck.jpg”>
+
 ## Visão Geral do Produto
 
 A aplicação será uma ferramenta web para avaliação de usabilidade com foco em heurísticas. Permitíra aos usuários:
 
 - Criar e gerenciar projetos, incluindo nome, descrição e logotipo.
-- Adicionar casos de uso ao projeto e selecionar imagens para avaliação.
+- Adicionar casos de uso ao projeto e selecionar imagens desses casos de uso para avaliação.
 - Identificar violações de princípios, identificar a heuristica ferida, selecionar o esforço e propor melhorias.
-- Gerar relatórios detalhados com base nas análises realizadas.
+- Gerar métricas relatórios detalhados com base nas análises realizadas.
 
 ---
 
 ## Requisitos Funcionais
 
-| Código | Nome                          | Descrição                                                                                  | Prioridade |
-| ------ | ----------------------------- | ------------------------------------------------------------------------------------------ | ---------- |
-| F01    | Cadastro de Projetos          | Criar, editar e excluir projetos com nome, descrição e logotipo e se tiver, o nome do cliente.                           | Essencial  |
-| F02    | Gerenciamento de Casos de Uso | Adicionar e gerenciar casos de uso associados a projetos.                                  | Essencial  |
-| F03    | Upload de Imagens             | Fazer upload de imagens para cada caso de uso.                                             | Essencial  |
-| F04    | Classificação de Heurísticas  | Associar violações de heurísticas a imagens, com descrição e proposta de melhoria.         | Essencial  |
-| F05    | Avaliação de Gravidade        | Classificar a gravidade do problema identificado.                                          | Importante |
-| F06    | Avaliação de Esforço          | Estimar o esforço necessário para corrigir o problema.                                     | Importante |
-| F07    | Relatórios                    | Gerar relatórios detalhados por projeto, caso de uso e imagem.                             | Desejável  |
-| F08    | Autenticação                  | Efetuar login e cadastro de usuários com diferentes permissões (Administrador, Avaliador). | Essencial  |
+| Código | Nome                          | Descrição                                                                                         | Prioridade |
+| ------ | ----------------------------- | ------------------------------------------------------------------------------------------------- | ---------- |
+| F08    | Autenticação                  | Efetuar login e cadastro de usuários com diferentes permissões (Administrador, Avaliador).        | Essencial  |
+| F02    | Cadastro de Projetos          | Criar, editar e excluir projetos com nome, descrição e logotipo e se tiver, o nome do cliente.    | Essencial  |
+| F03    | Gerenciamento de Casos de Uso | Adicionar e gerenciar casos de uso associados a projetos.                                         | Essencial  |
+| F04    | Upload de Imagens             | Fazer upload de imagens para cada caso de uso.                                                    | Essencial  |
+| F05    | Classificação de Heurísticas  | Associar violações encontradas nas imagens com as diretrizes da lista de Matos e Freire           | Essencial  |
+| F06    | Avaliação de Gravidade        | Classificar a gravidade do problema identificado.                                                 | Essencial  |
+| F07    | Avaliação de Esforço          | Estimar o esforço necessário para corrigir o problema.                                            | Essencial  |
+| F08    | Proposta de Melhoria          | O avaliador precisa descrever como resolver aquele problema.                                      | Essencial  |
+| F09    | Relatórios                    | Gerar relatórios detalhados por projeto, caso de uso e imagem.                                    | Desejável  |
 
 ---
 
