@@ -10,9 +10,9 @@
 
 ---
 
-## Objetivo
+## Objetivo 
+O principal objetivo da aplicação é fornecer uma plataforma onde alunos possam avaliar interfaces gráficas com base nas diretrizes de design, utilizando como base a Lista Eureca, criada e documentada por Silvia Matos, Marília Aranha, Isis Duarte e Ramon Vieira. A aplicação permitirá a criação e o gerenciamento de projetos com foco na avaliação das interfaces gráficas, incentivando a melhoria contínua delas e promovendo a qualidade e sistematização na hora de identificar problemas. Além de ser uma ferramenta para apoio computacional a identificação de problemas, é também idealizada para permitir o registro da proposta de solução para as diretrizes que foram feridas de acordo com a avaliação, além de relatar a gravidade do problema detectado e o esforço para que o mesmo seja resolvido. Com esses dados, a aplicação irá gerar relatório final da avaliação com uso de gráficos e métricas para o avaliador.
 
-O principal objetivo da aplicação é fornecer uma plataforma onde alunos possam avaliar interfaces gráficas com base nas diretrizes de design, utilizando como base a Lista Eureca, criada e documentada por Silvia Matos, Marília Freire, Isis Duarte e Ramon Vieira. A aplicação permitirá a criação e o gerenciamento de projetos com foco na avaliação das interfaces gráficas, incentivando a melhoria contínua delas e promovendo a qualidade e sistematização na hora de identificar problemas. Além de ser uma ferramenta para apoio computacional a identificação de problemas, é também idealizada para permitir o registro da proposta de solução para as diretrizes que foram feridas de acordo com a avaliação, além de relatar a gravidade do problema detectado e o esforço para que o mesmo seja resolvido. Com esses dados, a aplicação irá gerar relatório final da avaliação com uso de gráficos e métricas para o avaliador.
 ---
 
 ## Descrição do Problema
