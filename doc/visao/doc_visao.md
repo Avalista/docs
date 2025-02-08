@@ -59,7 +59,9 @@ Os usuários poderão acessar a aplicação por meio de qualquer dispositivo com
 1. Lyssna
 2. [Heurix | A free heuristic evaluation tool]([url](https://www.heurix.io))
 Trata-se de uma ferramenta utilizada para avaliar telas por meio de questionários. A avaliação começa imediatamente após o login, quando o usuário é solicitado a criar um projeto. Em seguida, as perguntas são iniciadas, organizadas em diferentes categorias: Primeiras Impressões (First Impressions), Navegação do Site (Site Navigation), Informações (Information), Confiança e Persuasão (Trust and Persuasion), Interação (Interaction), Formulários (Forms) e Pesquisa (Search).
-<img src"heurix-home.png">
+
+<img src="heurix-home.png">
+
 Essa aplicação não segue nenhuma lista de diretrizes ou heurísticas de usabilidade como referência, baseando-se apenas em perguntas objetivas com respostas limitadas a "Yes" (Sim), "Room to Improve" (Tem como melhorar), "No" (Não) e "Not Applicable" (Não se aplica). Isso significa que não há um conjunto estruturado de princípios reconhecidos, como as heurísticas de Nielsen ou as diretrizes da ISO, para fundamentar a avaliação.
 
 
