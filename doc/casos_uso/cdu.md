@@ -1,4 +1,4 @@
-# Caso de Uso: Avaliação de Heurísticas no Sistema
+# Caso de Uso: Avaliar
 
 ## Nome:
 SEM NOME
