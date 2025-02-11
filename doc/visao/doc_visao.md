@@ -111,10 +111,10 @@ A aplicação será uma ferramenta web para avaliação de usabilidade com foco 
 
 ## Requisitos Não-Funcionais
 
-| Código | Nome                      | Descrição                                                                          | Categoria       | Classificação |   |
-| ------ | ------------------------- | ---------------------------------------------------------------------------------- | --------------- | ------------- | - |
-| NF01   | Segurança dos Dados       | As informações armazenadas devem ser protegidas com autenticação e criptografia.   | Segurança       | Obrigatório   |   |
-| NF02   | Tempo de Resposta         | O sistema deve carregar os projetos e as demais  em menos de 1 minuto.             | Eficiência e Performance     | Desejável     |   |
-| NF03   | Ambiente de funcionamento | O sistema deve funcionar nos navegadores mais usados, como Chrome, Firefox e Edge. | Compatibilidade | Essencial     |   |
+| Código | Nome                      | Descrição                                                                          | Categoria                    | Classificação |
+| ------ | ------------------------- | ---------------------------------------------------------------------------------- | -----------------------------| ------------- |
+| NF01   | Segurança dos Dados       | As informações armazenadas devem ser protegidas com autenticação e criptografia.   | Segurança                    | Obrigatório   | 
+| NF02   | Tempo de Resposta         | O sistema deve carregar os projetos e as demais  em menos de 1 minuto.             | Eficiência e Performance     | Desejável     | 
+| NF03   | Ambiente de funcionamento | O sistema deve funcionar nos navegadores mais usados, como Chrome, Firefox e Edge. | Compatibilidade              | Essencial     |
 
 [Requisitos Não Funcionais (Mensuráveis)]([url](https://github.com/radmilags/TCC/tree/main/doc/req_qualidade))
