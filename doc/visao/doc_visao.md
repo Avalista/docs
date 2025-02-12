@@ -42,14 +42,14 @@ Uma aplicação web que permita a avaliação de projetos, incluindo upload de i
 
 ## Descrição do Ambiente dos Usuários
 
-Os usuários poderão acessar a aplicação por meio de qualquer dispositivo com acesso à internet e um navegador atualizado. O sistema será com foco no desktop, mas terá uma versãon responsiva para celular, na qual mostrará apenas os relatórios dos projetos.
+Os usuários poderão acessar a aplicação por meio de qualquer dispositivo com acesso à internet e um navegador atualizado. O sistema será com foco no desktop, mas, para planos futuros, terá uma versão mobile apenas com as métricas dos projetos.
 
 ---
 
 ## Principais Necessidades dos Usuários
 
-1. **Avaliadores:** Precisam de uma ferramenta que permita identificar e documentar violações de heurísticas com facilidade, incluindo o upload de imagens e a descrição de melhorias. Além disso, terão acesso a métricas detalhadas sobre as violações registradas, permitindo uma análise mais precisa e facilitando a priorização e resolução dos problemas identificados. Essas métricas ajudarão a compreender a recorrência das falhas e a eficiência das soluções aplicadas ao longo do tempo.
-2. **Administradores:** Necessitam gerenciar usuários, projetos e manter a integridade das informações cadastradas.
+**Avaliadores:** Precisam de uma ferramenta que permita identificar e documentar violações de heurísticas com facilidade, incluindo o upload de imagens e a descrição de melhorias. Além disso, terão acesso a métricas detalhadas sobre as violações registradas, permitindo uma análise mais precisa e facilitando a priorização e resolução dos problemas identificados. Essas métricas ajudarão a compreender a recorrência das falhas e a eficiência das soluções aplicadas ao longo do tempo.
+**Administradores:** Necessitam gerenciar usuários, projetos e manter a integridade das informações cadastradas.
 
 ---
 
@@ -83,7 +83,7 @@ Por fim, após a avaliação, é possível que o usuário baixe a avaliação co
 
 ## Visão Geral do Produto
 
-A aplicação será uma ferramenta web para avaliação de usabilidade com foco em heurísticas. Permitíra aos usuários:
+A aplicação será uma ferramenta web para avaliação de usabilidade com foco em heurísticas. Permitir aos usuários:
 
 - Criar e gerenciar projetos, incluindo nome, descrição e logotipo.
 - Adicionar casos de uso ao projeto e selecionar imagens desses casos de uso para avaliação.
