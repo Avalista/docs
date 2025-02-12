@@ -97,7 +97,7 @@ A aplicação será uma ferramenta web para avaliação de usabilidade com foco 
 | Código | Nome                          | Descrição                                                                                         | Prioridade |
 | ------ | ----------------------------- | ------------------------------------------------------------------------------------------------- | ---------- |
 | F01    | Autenticação                  | Efetuar login e cadastro de usuários com diferentes permissões (Administrador, Avaliador).        | Essencial  |
-| F02    | Cadastro de Projetos          | Criar, editar e excluir projetos com nome, descrição e logotipo e se tiver, o nome do cliente.    | Essencial  |
+| F02    | Cadastro de Projetos          | Criar, editar e excluir projetos com nome, descrição e marca gráfica                              | Essencial  |
 | F03    | Gerenciamento de Casos de Uso | Adicionar e gerenciar casos de uso associados a projetos.                                         | Essencial  |
 | F04    | Upload de Imagens             | Fazer upload de imagens para cada caso de uso.                                                    | Essencial  |
 | F05    | Classificação de Heurísticas  | Associar violações encontradas nas imagens com as diretrizes da lista de Matos e Freire           | Essencial  |
