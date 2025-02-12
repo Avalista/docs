@@ -94,6 +94,30 @@ A aplicação será uma ferramenta web para avaliação de usabilidade com foco 
 
 ## Requisitos Funcionais
 
+### Prioridade: 
+(Metodologia MoSCoW)
+
+1. Essencial (Obrigatório / Must Have)
+Requisitos que devem ser implementados para que o sistema funcione minimamente.
+Sem esses requisitos, o sistema perde sua funcionalidade principal.
+Exemplo: "O sistema deve permitir que o usuário realize login com email e senha."
+
+2. Importante (Deveria Ter / Should Have)
+São requisitos relevantes, mas não são essenciais para a primeira versão do sistema.
+Podem ser adiados para versões futuras caso o prazo ou orçamento sejam limitados.
+Exemplo: "O sistema deveria permitir login via redes sociais."
+
+3. Desejável (Poderia Ter / Could Have)
+Melhorias ou funcionalidades adicionais que trazem valor ao usuário, mas não são críticas.
+Sua implementação depende da disponibilidade de tempo e recursos.
+Exemplo: "O sistema poderia ter um tema escuro personalizável."
+
+4. Opcional (Não Prioritário / Won't Have for Now)
+Funcionalidades que foram sugeridas, mas não serão implementadas nesta versão.
+Podem ser consideradas para futuras releases, mas não afetam a entrega atual.
+Exemplo: "O sistema não terá suporte para múltiplos idiomas nesta versão."
+
+
 | Código | Nome                               | Descrição                                                                                         | Prioridade |
 | ------ | ---------------------------------- | ------------------------------------------------------------------------------------------------- | ---------- |
 | F01    | Autenticação                       | O sistema deve permitir efetuar login e cadastro de usuários com diferentes permissões (Administrador, Avaliador).        | Essencial  |
