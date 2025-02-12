@@ -94,18 +94,20 @@ A aplicação será uma ferramenta web para avaliação de usabilidade com foco 
 
 ## Requisitos Funcionais
 
-| Código | Nome                          | Descrição                                                                                         | Prioridade |
-| ------ | ----------------------------- | ------------------------------------------------------------------------------------------------- | ---------- |
-| F01    | Autenticação                  | Efetuar login e cadastro de usuários com diferentes permissões (Administrador, Avaliador).        | Essencial  |
-| F02    | Cadastro de Projetos          | Criar, editar e excluir projetos com nome, descrição e marca gráfica                              | Essencial  |
-| F03    | Gerenciamento de Casos de Uso | Adicionar e gerenciar casos de uso associados a projetos.                                         | Essencial  |
-| F04    | Upload de Imagens             | Fazer upload de imagens para cada caso de uso.                                                    | Essencial  |
-| F05    | Classificação de Heurísticas  | Associar violações encontradas nas imagens com as diretrizes da lista de Matos e Freire           | Essencial  |
-| F06    | Avaliação de Gravidade        | Classificar a gravidade do problema identificado.                                                 | Essencial  |
-| F07    | Avaliação de Esforço          | Estimar o esforço necessário para corrigir o problema.                                            | Essencial  |
-| F08    | Proposta de Melhoria          | O avaliador precisa descrever como resolver aquele problema.                                      | Essencial  |
-| F09    | Relatórios                    | Gerar relatórios detalhados por projeto, caso de uso e imagem.                                    | Desejável  |
-| F10    | Classificação das Violações   | Na exibição das métricas, o sistema deve mostrar a classificação das métricas com base na gravidade, no esforço que leva para resolver e também na quantidade de vezes que aquela diretriz é violada                                   | Desejável  |
+| Código | Nome                               | Descrição                                                                                         | Prioridade |
+| ------ | ---------------------------------- | ------------------------------------------------------------------------------------------------- | ---------- |
+| F01    | Autenticação                       | O sistema deve permitir efetuar login e cadastro de usuários com diferentes permissões (Administrador, Avaliador).        | Essencial  |
+| F02    | Adicionar Projetos                 | O sistema deve permitir criar, editar e excluir projetos, contendo nome, descrição e marca gráfica.                              | Essencial  |
+| F03    | Adicionar Casos de Uso             | O sistema deve permitir criar, editar e excluir casos de uso, com nome, descrição e fotos que compõem aquele fluxo.       | Essencial  |
+| F04    | Upload de Imagens                  | O sistema deve permitir o upload de imagens para cada caso de uso.                                                    | Essencial  |
+| F05    | Categorizar Violações              | O sistema deve permitir que o avaliador associe violações encontradas nas imagens às diretrizes da lista de Matos e Freire, categorizando cada violação. | Essencial  |
+| F06    | Estimar o tempo de resolução       | O sistema deve permitir que o avaliador estime, em horas e minutos, o tempo necessário para corrigir cada problema identificado.                                           | Essencial  |
+| F07    | Avaliação de Esforço               | O sistema deve permitir que o avaliador estime o esforço necessário para corrigir cada problema, auxiliando na priorização de correções.                                           | Essencial  |
+| F08    | Proposta de Melhoria               | O sistema deve permitir que o avaliador descreva sugestões de melhorias para resolver os problemas identificados.                                  | Essencial  |
+| F09    | Coleta de Métricas do Projeto      | O sistema deve coletar métricas detalhadas por projeto, como número de vezes que cada categoria aparece, número de vezes que cada diretriz aparece, tempo total para resolver as diretrizes de um projeto e o esforço total para resolvê-las.                                    | Essencial  |
+| F10    | Coleta de Métricas do Avaliador    | O sistema deve coletar métricas detalhadas por avaliador, incluindo os 3 projetos com maior tempo de resolução, número total de horas gastas resolvendo problemas, a categoria mais comum e o número de vezes que ela foi registrada, além da diretriz mais comum e o número de vezes que ela foi registrada. | Essencial  | 
+| F10    | 	Visualização de Métricas   | O sistema deve permitir que o avaliador visualize as métricas coletadas, incluindo a classificação das métricas com base na gravidade, no esforço para resolver e na frequência de violação das diretrizes.                                | Essencial  |
+| F11    | Marcar
 
 ---
 
