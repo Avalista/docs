@@ -118,20 +118,20 @@ Podem ser consideradas para futuras releases, mas não afetam a entrega atual.
 Exemplo: "O sistema não terá suporte para múltiplos idiomas nesta versão."
 
 
-| Código | Nome                               | Descrição                                                                                         | Prioridade |
-| ------ | ---------------------------------- | ------------------------------------------------------------------------------------------------- | ---------- |
-| F01    | Autenticação                       | O sistema deve permitir efetuar login e cadastro de usuários com diferentes permissões (Administrador, Avaliador).        | Essencial  |
-| F02    | Adicionar Projetos                 | O sistema deve permitir criar, editar e excluir projetos, contendo nome, descrição e marca gráfica.                              | Essencial  |
-| F03    | Adicionar Casos de Uso             | O sistema deve permitir criar, editar e excluir casos de uso, com nome, descrição e fotos que compõem aquele fluxo.       | Essencial  |
-| F04    | Upload de Imagens                  | O sistema deve permitir o upload de imagens para cada caso de uso.                                                    | Essencial  |
-| F05    | Categorizar Violações              | O sistema deve permitir que o avaliador associe violações encontradas nas imagens às diretrizes da lista de Matos e Freire, categorizando cada violação. | Essencial  |
-| F06    | Estimar o tempo de resolução       | O sistema deve permitir que o avaliador estime, em horas e minutos, o tempo necessário para corrigir cada problema identificado.                                           | Essencial  |
-| F07    | Avaliação de Esforço               | O sistema deve permitir que o avaliador estime o esforço necessário para corrigir cada problema, auxiliando na priorização de correções.                                           | Essencial  |
-| F08    | Proposta de Melhoria               | O sistema deve permitir que o avaliador descreva sugestões de melhorias para resolver os problemas identificados.                                  | Essencial  |
-| F09    | Coleta de Métricas do Projeto      | O sistema deve coletar métricas detalhadas por projeto, como número de vezes que cada categoria aparece, número de vezes que cada diretriz aparece, tempo total para resolver as diretrizes de um projeto e o esforço total para resolvê-las.                                    | Essencial  |
-| F10    | Coleta de Métricas do Avaliador    | O sistema deve coletar métricas detalhadas por avaliador, incluindo os 3 projetos com maior tempo de resolução, número total de horas gastas resolvendo problemas, a categoria mais comum e o número de vezes que ela foi registrada, além da diretriz mais comum e o número de vezes que ela foi registrada. | Essencial  | 
-| F10    | 	Visualização de Métricas   | O sistema deve permitir que o avaliador visualize as métricas coletadas, incluindo a classificação das métricas com base na gravidade, no esforço para resolver e na frequência de violação das diretrizes.                                | Essencial  |
-| F11    | Marcar
+| Código | Nome                            | Descrição                                                                                                                                                                                                         | Prioridade  |
+|--------|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| F01    | Autenticação                    | O sistema deve permitir efetuar login e cadastro de usuários com diferentes permissões (Administrador, Avaliador).                                                                                                | Essencial   |
+| F02    | Adicionar Projetos              | O sistema deve permitir criar, editar e excluir projetos, contendo nome, descrição e marca gráfica.                                                                                                               | Essencial   |
+| F03    | Adicionar Casos de Uso          | O sistema deve permitir criar, editar e excluir casos de uso, com nome, descrição e fotos que compõem aquele fluxo.                                                                                               | Essencial   |
+| F04    | Upload de Imagens               | O sistema deve permitir o upload de imagens para cada caso de uso.                                                                                                                                                | Essencial   |
+| F05    | Categorizar Violações           | O sistema deve permitir que o avaliador associe violações encontradas nas imagens às diretrizes da lista de Matos e Freire, categorizando cada violação.                                                          | Essencial   |
+| F06    | Estimar o Tempo de Resolução    | O sistema deve permitir que o avaliador estime, em horas e minutos, o tempo necessário para corrigir cada problema identificado.                                                                                  | Essencial   |
+| F07    | Avaliação de Esforço            | O sistema deve permitir que o avaliador estime o esforço necessário para corrigir cada problema, auxiliando na priorização de correções.                                                                          | Essencial   |
+| F08    | Proposta de Melhoria            | O sistema deve permitir que o avaliador descreva sugestões de melhorias para resolver os problemas identificados.                                                                                                 | Essencial   |
+| F09    | Coleta de Métricas do Projeto   | O sistema deveria coletar métricas detalhadas por projeto, como número de vezes que cada categoria aparece, número de vezes que cada diretriz aparece, tempo total para resolver as diretrizes de um projeto e o esforço total para resolvê-las.                                                                                                                                                                                                                                              | Importante  |
+| F10    | Coleta de Métricas do Avaliador | O sistema deveria coletar métricas detalhadas do avaliador. Esses dados vêm de todas as avaliações de todos os projetos. Essas métricas incluem uma listagem dos 3 projetos com maior tempo de resolução, número total de horas gastas resolvendo problemas, a categoria mais comum e o número de vezes que ela foi registrada, além da diretriz mais comum e o número de vezes que ela foi registrada.                                                                                        | Importante  |
+| F11    | Visualização de Métricas        | O sistema deveria permitir que o avaliador visualize as métricas coletadas, incluindo a classificação das métricas com base na gravidade, no esforço para resolver e na frequência de violação das diretrizes.    | Importante  |
+| F12    | Resolver a Diretriz             | O sistema poderia permitir que o avaliador marque a diretriz como resolvida e que ele faça upload de uma foto mostrando a resolução.                                                                              | Desejável   |
 
 ---
 
@@ -140,7 +140,7 @@ Exemplo: "O sistema não terá suporte para múltiplos idiomas nesta versão."
 | Código | Nome                      | Descrição                                                                          | Categoria                    | Classificação |
 | ------ | ------------------------- | ---------------------------------------------------------------------------------- | -----------------------------| ------------- |
 | NF01   | Segurança dos Dados       | As informações armazenadas devem ser protegidas com autenticação e criptografia.   | Segurança                    | Obrigatório   | 
-| NF02   | Tempo de Resposta         | O sistema deve carregar os projetos e as demais  em menos de 1 minuto.             | Eficiência e Performance     | Desejável     | 
+| NF02   | Tempo de Resposta         | O sistema deve carregar os projetos em menos de 5 segundos.                        | Eficiência e Performance     | Desejável     | 
 | NF03   | Ambiente de funcionamento | O sistema deve funcionar nos navegadores mais usados, como Chrome, Firefox e Edge. | Compatibilidade              | Essencial     |
 
 [Requisitos Não Funcionais (Mensuráveis)]([url](https://github.com/radmilags/TCC/tree/main/doc/req_qualidade))
