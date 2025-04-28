@@ -7,6 +7,7 @@
 | 02/12/2024 | 1.0    | Versão Inicial | Radmila Gama |
 | 19/12/2024 | 1.1    | Revisão do Escopo e dos Usuários | Radmila Gama |
 | 01/02/2025 | 2.0    | Alteração no escopo e na ideia do projeto  | Radmila Gama |
+| 28/04/2025 | 2.1    | Adição do método Eureca e das funções educacionais  | Radmila Gama e Ramon Vieira |
 
 ---
 
