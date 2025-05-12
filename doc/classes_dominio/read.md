@@ -1,6 +1,6 @@
 # Diagrama de classes
 
-![image.png](./classes-diagram.png)
+![image.png](./classesDiagram.png)
 
 ## Fluxo Geral do Sistema
 
