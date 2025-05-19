@@ -1,4 +1,4 @@
-### HU005 - Detalhar meu projeto
+### HU006 - Detalhar meu projeto
 
 ---
 
@@ -6,7 +6,7 @@
 
 **Eu quero** Detalhar o meu projeto
 
-**Para que** Visualizar as informações de um projeto específico
+**Para que** eu possa visualizar as informações de um projeto específico
 
 ---
 
