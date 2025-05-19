@@ -6,7 +6,7 @@
 
 **Eu quero** criar minha conta
 
-**Para que** eu tenha acesso a todas as funcionalidades
+**Para que** eu possa me autenticar na plataforma
 
 ---
 
