@@ -8,7 +8,7 @@
 - **HU005** - Visualizar meus projetos
 - **HU006** - Detalhar meu projeto
 - **HU007** - Editar meu projeto
-- **HU008** - Convidar membros para o projeto
+- **HU008** - Adicionar avaliadores ao projeto
 - **HU009** - Cadastrar um fluxo
 - **HU0010** - Editar um fluxo
 - **HU011** - Excluir um fluxo
