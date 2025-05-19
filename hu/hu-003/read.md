@@ -6,7 +6,7 @@
 
 **Eu quero** visualizar o meu perfil
 
-**Para que** acesso as minhas inforamações pessoais
+**Para que** acesso as minhas informações pessoais
 
 ---
 
