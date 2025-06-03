@@ -19,7 +19,7 @@
 - **HU015** - Visualizar problemas individuais
 - **HU016** - Editar problemas individuais
 - **HU017** - Criar avaliação final
-- **HU018** - Editar problemas individuais para avaliação final
+- **HU018** - Editar problemas para avaliação final
 - **HU019** - Marcar problema final como resolvido
 
 - **HU020** - Atribuir emblemas ao avaliador (sistema)
@@ -36,3 +36,12 @@
 - **HU029** - Listar diretriz
 - **HU030** - Detalhar diretriz
 - **HU031** - Deletar diretriz
+
+- **HU032** - Sugerir uma nova categoria
+- **HU033** - Sugerir uma nova diretriz
+- **HU034** - Listar sugestões de categorias
+- **HU035** - Listar sugestões de diretrizes
+- **HU036** - Aceitar sugestão de categoria
+- **HU037** - Aceitar sugestão de diretriz
+
+- **HU038** - Listagem de avalistas
