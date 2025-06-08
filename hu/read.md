@@ -1,5 +1,7 @@
 ### Histórias do usuário
 
+[Cronograma](./cronograma.md)
+
 - **HU001** - Criar conta
 - **HU002** - Fazer login
 - **HU003** - Visualizar meu perfil
