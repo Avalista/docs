@@ -10,7 +10,7 @@
 - [ ] [**HU009** - Cadastrar uma tela](./hu-009/read.md)
 - [ ] [**HU012** - Iniciar avaliação individual por categoria, diretriz e tela](./hu-012/read.md)
 - [ ] [**HU013** - Adicionar problema à avaliação individual](./hu-013/read.md)
-- [ ] [**HU014** - Visualizar progresso da avaliação por diretriz]()
+- [ ] [**HU014** - Visualizar progresso da avaliação por diretriz](./hu-014/read.md)
 - [ ] [**HU015** - Visualizar progresso da avaliação por categoria]()
 - [ ] [**HU016** - Finalizar avaliação de uma tela]()
 - [ ] [**HU017** - Finalizar avaliação individual]()
