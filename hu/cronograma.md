@@ -53,6 +53,7 @@
 - [ ] [**HU043** - Listagem de avalistas]()
 - [ ] [**HU044** - Visualizar minhas estatísticas de avaliações]()
 - [ ] [**HU045** - Visualizar estatísticas de avaliações do projeto]()
+- [ ] [**HU046** - Visualizar todos os projetos]()
 
 ### ✅ Sprint 6 (15/07/2025 - 22/07/2025)
 

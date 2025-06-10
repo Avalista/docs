@@ -55,3 +55,5 @@
 
 - [**HU044** - Visualizar minhas estatísticas de avaliações]()
 - [**HU045** - Visualizar estatísticas de avaliações do projeto]()
+
+- [**HU046** - Visualizar todos os projetos]()
