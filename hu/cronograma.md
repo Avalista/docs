@@ -4,8 +4,8 @@
 
 - [ ] [**HU001** - Criar conta](./hu-001/read.md)
 - [ ] [**HU002** - Fazer login](./hu-002/read.md)
-- [ ] [**HU004** - Criar projeto]()
-- [ ] [**HU005** - Visualizar meus projetos]()
+- [ ] [**HU004** - Criar projeto](./hu-004/read.md)
+- [ ] [**HU005** - Visualizar meus projetos](./hu-005/read.md)
 - [ ] [**HU006** - Detalhar meu projeto]()
 - [ ] [**HU009** - Cadastrar um fluxo]()
 - [ ] [**HU012** - Iniciar avaliação individual por categoria, diretriz e ]()tela
