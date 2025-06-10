@@ -8,7 +8,7 @@
 - [ ] [**HU005** - Visualizar meus projetos](./hu-005/read.md)
 - [ ] [**HU006** - Detalhar meu projeto](./hu-006/read.md)
 - [ ] [**HU009** - Cadastrar uma tela](./hu-009/read.md)
-- [ ] [**HU012** - Iniciar avaliação individual por categoria, diretriz e tela]()
+- [ ] [**HU012** - Iniciar avaliação individual por categoria, diretriz e tela](./hu-012/read.md)
 - [ ] [**HU013** - Adicionar problema à avaliação individual]()
 - [ ] [**HU014** - Visualizar progresso da avaliação por diretriz]()
 - [ ] [**HU015** - Visualizar progresso da avaliação por categoria]()

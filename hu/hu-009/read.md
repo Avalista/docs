@@ -6,7 +6,7 @@
 
 **Eu quero** cadastrar uma tela no meu projeto
 
-**Para que** eu possa me avaliar essa tela
+**Para que** eu possa avaliar essa tela
 
 ---
 
