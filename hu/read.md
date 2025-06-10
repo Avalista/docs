@@ -11,7 +11,7 @@
 - [**HU006** - Detalhar meu projeto](./hu-006/read.md)
 - [**HU007** - Editar meu projeto]()
 - [**HU008** - Adicionar avaliadores ao projeto]()
-- [**HU009** - Cadastrar uma tela]()
+- [**HU009** - Cadastrar uma tela](./hu-009/read.md)
 - [**HU010** - Editar uma tela]()
 - [**HU011** - Excluir uma tela]()
 
