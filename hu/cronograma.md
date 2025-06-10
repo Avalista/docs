@@ -3,7 +3,7 @@
 ### ✅ Sprint 1 (03/06/2025 - 17/06/2025)
 
 - [ ] [**HU001** - Criar conta](./hu-001/read.md)
-- [ ] [**HU002** - Fazer login]()
+- [ ] [**HU002** - Fazer login](./hu-002/read.md)
 - [ ] [**HU004** - Criar projeto]()
 - [ ] [**HU005** - Visualizar meus projetos]()
 - [ ] [**HU006** - Detalhar meu projeto]()

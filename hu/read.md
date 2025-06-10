@@ -3,55 +3,55 @@
 [Cronograma](./cronograma.md)
 
 - [**HU001** - Criar conta](./hu-001/read.md)
-- **HU002** - Fazer login
-- **HU003** - Visualizar meu perfil
+- [**HU002** - Fazer login](./hu-002/read.md)
+- [**HU003** - Visualizar meu perfil]()
 
-- **HU004** - Criar projeto
-- **HU005** - Visualizar meus projetos
-- **HU006** - Detalhar meu projeto
-- **HU007** - Editar meu projeto
-- **HU008** - Adicionar avaliadores ao projeto
-- **HU009** - Cadastrar um fluxo
-- **HU010** - Editar um fluxo
-- **HU011** - Excluir um fluxo
+- [**HU004** - Criar projeto](./hu-004/read.md)
+- [**HU005** - Visualizar meus projetos]()
+- [**HU006** - Detalhar meu projeto]()
+- [**HU007** - Editar meu projeto]()
+- [**HU008** - Adicionar avaliadores ao projeto]()
+- [**HU009** - Cadastrar um fluxo]()
+- [**HU010** - Editar um fluxo]()
+- [**HU011** - Excluir um fluxo]()
 
-- **HU012** - Iniciar avaliação individual por categoria, diretriz e tela
-- **HU013** - Adicionar problema à avaliação individual
-- **HU014** - Visualizar progresso da avaliação por diretriz
-- **HU015** - Visualizar progresso da avaliação por categoria
-- **HU016** - Finalizar avaliação de uma tela
-- **HU017** - Finalizar avaliação individual
-- **HU018** - Visualizar avaliações individuais
-- **HU019** - Visualizar problemas individuais
-- **HU020** - Editar problemas individuais
-- **HU021** - Iniciar avaliação final
-- **HU022** - Editar problemas para avaliação final
-- **HU023** - Marcar problema final como resolvido
+- [**HU012** - Iniciar avaliação individual por categoria, diretriz e tela]()
+- [**HU013** - Adicionar problema à avaliação individual]()
+- [**HU014** - Visualizar progresso da avaliação por diretriz]()
+- [**HU015** - Visualizar progresso da avaliação por categoria]()
+- [**HU016** - Finalizar avaliação de uma tela]()
+- [**HU017** - Finalizar avaliação individual]()
+- [**HU018** - Visualizar avaliações individuais]()
+- [**HU019** - Visualizar problemas individuais]()
+- [**HU020** - Editar problemas individuais]()
+- [**HU021** - Iniciar avaliação final]()
+- [**HU022** - Editar problemas para avaliação final]()
+- [**HU023** - Marcar problema final como resolvido]()
 
-- **HU024** - Atribuir emblemas ao avaliador (sistema)
-- **HU025** - Visualizar meus emblemas
+- [**HU024** - Atribuir emblemas ao avaliador (sistema)]()
+- [**HU025** - Visualizar meus emblemas]()
 
-- **HU026** - Cadastrar categoria
-- **HU027** - Editar categoria
-- **HU028** - Listar categorias
-- **HU029** - Detalhar categoria
-- **HU030** - Deletar categoria
+- [**HU026** - Cadastrar categoria]()
+- [**HU027** - Editar categoria]()
+- [**HU028** - Listar categorias]()
+- [**HU029** - Detalhar categoria]()
+- [**HU030** - Deletar categoria]()
 
-- **HU031** - Cadastrar diretriz
-- **HU032** - Editar diretriz
-- **HU033** - Listar diretriz
-- **HU034** - Detalhar diretriz
-- **HU035** - Deletar diretriz
+- [**HU031** - Cadastrar diretriz]()
+- [**HU032** - Editar diretriz]()
+- [**HU033** - Listar diretriz]()
+- [**HU034** - Detalhar diretriz]()
+- [**HU035** - Deletar diretriz]()
 
-- **HU036** - Sugerir uma nova categoria
-- **HU037** - Sugerir uma nova diretriz
-- **HU038** - Listar sugestões de categorias
-- **HU039** - Listar sugestões de diretrizes
-- **HU040** - Analisar sugestão de categoria
-- **HU041** - Analisar sugestão de diretriz
-- **HU042** - Visualizar listas
+- [**HU036** - Sugerir uma nova categoria]()
+- [**HU037** - Sugerir uma nova diretriz]()
+- [**HU038** - Listar sugestões de categorias]()
+- [**HU039** - Listar sugestões de diretrizes]()
+- [**HU040** - Analisar sugestão de categoria]()
+- [**HU041** - Analisar sugestão de diretriz]()
+- [**HU042** - Visualizar listas]()
 
-- **HU043** - Listagem de avalistas
+- [**HU043** - Listagem de avalistas]()
 
-- **HU044** - Visualizar minhas estatísticas de avaliações
-- **HU045** - Visualizar estatísticas de avaliações do projeto
+- [**HU044** - Visualizar minhas estatísticas de avaliações]()
+- [**HU045** - Visualizar estatísticas de avaliações do projeto]()
