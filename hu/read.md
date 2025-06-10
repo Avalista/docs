@@ -31,11 +31,11 @@
 - [**HU024** - Atribuir emblemas ao avaliador (sistema)]()
 - [**HU025** - Visualizar meus emblemas]()
 
-- [**HU026** - Cadastrar categoria]()
-- [**HU027** - Editar categoria]()
-- [**HU028** - Listar categorias]()
-- [**HU029** - Detalhar categoria]()
-- [**HU030** - Deletar categoria]()
+- [**HU026** - Cadastrar categoria](./hu-026/read.md)
+- [**HU027** - Editar categoria](./hu-027/read.md)
+- [**HU028** - Listar categorias](./hu-028/read.md)
+- [**HU029** - Detalhar categoria](./hu-029/read.md)
+- [**HU030** - Deletar categoria](./hu-030/read.md)
 
 - [**HU031** - Cadastrar diretriz]()
 - [**HU032** - Editar diretriz]()

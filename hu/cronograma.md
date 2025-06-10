@@ -21,7 +21,7 @@
 ### ✅ Sprint 2 (17/06/2025 - 24/06/2025)
 
 - [ ] [**HU008** - Adicionar avaliadores ao projeto]()
-- [ ] [**HU028** - Listar categorias]()
+- [ ] [**HU028** - Listar categorias](./hu-028/read.md)
 - [ ] [**HU033** - Listar diretriz]()
 - [ ] [**HU014** - Visualizar avaliações individuais]()
 - [ ] [**HU018** - Visualizar avaliações individuais]()
@@ -29,10 +29,10 @@
 
 ### ✅ Sprint 3 (24/06/2025 - 01/07/2025)
 
-- [ ] [**HU026** - Cadastrar categoria]()
-- [ ] [**HU027** - Editar categoria]()
-- [ ] [**HU029** - Detalhar categoria]()
-- [ ] [**HU030** - Deletar categoria]()
+- [ ] [**HU026** - Cadastrar categoria](./hu-026/read.md)
+- [ ] [**HU027** - Editar categoria](./hu-027/read.md)
+- [ ] [**HU029** - Detalhar categoria](./hu-029/read.md)
+- [ ] [**HU030** - Deletar categoria](./hu-030/read.md)
 - [ ] [**HU031** - Cadastrar diretriz]()
 - [ ] [**HU032** - Editar diretriz]()
 - [ ] [**HU034** - Detalhar diretriz]()

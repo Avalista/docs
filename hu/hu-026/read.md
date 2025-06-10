@@ -1,16 +1,19 @@
-### HU026 - Deletar categoria
+### HU026 - Cadastrar categoria
 
 ---
 
 **Como** usuário adminstrador do sistema autenticado
 
-**Eu quero** excluir permanentemente uma categoria existente do sistema
+**Eu quero** cadastrar uma categoria
 
-**Para que** eu possa remover categorias que não são mais necessárias, são irrelevantes, foram cadastradas incorretamente ou estão duplicadas.
+**Para que** as heurísticas possam ser agrupadas e organizadas facilmente
 
 ---
 
 ### Critérios de Aceitação
 
-- O sistema deve permitir que o administrador inicie a ação de exclusão para uma categoria específica.
-- Antes da exclusão, o sistema deve exibir uma mensagem de confirmação clara, perguntando ao administrador se ele realmente deseja excluir a categoria. A mensagem deve alertar que esta ação é irreversível. ("Tem certeza de que deseja excluir a categoria '[Nome da Categoria]'? Esta categoria está atualmente associada a X heurística(s). Se você continuar, esta(s) heurística(s) ficará(ão) sem categoria.").
+- O formulário de cadastro de categoria deve conter os campos: **nome** (obrigatório) e **cor** (obrigatório).
+- O campo **nome** da categoria deve ser único no sistema.
+- O campo **cor** deve ter uma validação de formato #RRGGBB.
+- Se o **nome** informado já estiver cadastrado para outra categoria, o sistema deve exibir uma mensagem de erro, como "Nome de categoria já existente.", e não permitir o cadastro.
+- Ao cadastrar a categoria com sucesso, o sistema deve exibir uma mensagem de confirmação, como "Categoria cadastrada com sucesso!".

@@ -1,4 +1,4 @@
-### HU024 - Listar categorias
+### HU028 - Listar categorias
 
 ---
 

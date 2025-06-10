@@ -1,4 +1,4 @@
-### HU025 - Detalhar categoria
+### HU029 - Detalhar categoria
 
 ---
 
