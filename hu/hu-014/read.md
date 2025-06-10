@@ -14,5 +14,5 @@
 
 - O avaliador deve conseguir ver uma lista de diretrizes agrupadas por categoria.
 - Cada diretriz deve exibir um indicador como:
-  1. Quantidade de problemas já registrados para aquela diretriz.
-  2. Ficar colorido não tiver mais telas para ser avaliada.
+  1. Porcentagem de conclusão conforme a quantidade de telas finalizadas para aquela diretriz.
+  2. Um destaque visual (colorido) quando a diretriz estiver 100% concluída.
