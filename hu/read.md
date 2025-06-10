@@ -11,9 +11,9 @@
 - [**HU006** - Detalhar meu projeto](./hu-006/read.md)
 - [**HU007** - Editar meu projeto]()
 - [**HU008** - Adicionar avaliadores ao projeto]()
-- [**HU009** - Cadastrar um fluxo]()
-- [**HU010** - Editar um fluxo]()
-- [**HU011** - Excluir um fluxo]()
+- [**HU009** - Cadastrar uma tela]()
+- [**HU010** - Editar uma tela]()
+- [**HU011** - Excluir uma tela]()
 
 - [**HU012** - Iniciar avaliação individual por categoria, diretriz e tela]()
 - [**HU013** - Adicionar problema à avaliação individual]()

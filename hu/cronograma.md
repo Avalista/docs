@@ -7,7 +7,7 @@
 - [ ] [**HU004** - Criar projeto](./hu-004/read.md)
 - [ ] [**HU005** - Visualizar meus projetos](./hu-005/read.md)
 - [ ] [**HU006** - Detalhar meu projeto](./hu-006/read.md)
-- [ ] [**HU009** - Cadastrar um fluxo]()
+- [ ] [**HU009** - Cadastrar uma tela]()
 - [ ] [**HU012** - Iniciar avaliação individual por categoria, diretriz e ]()tela
 - [ ] [**HU013** - Adicionar problema à avaliação individual]()
 - [ ] [**HU014** - Visualizar progresso da avaliação por diretriz]()
