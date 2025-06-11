@@ -57,3 +57,6 @@
 - [**HU045** - Visualizar estatísticas de avaliações do projeto]()
 
 - [**HU046** - Visualizar todos os projetos]()
+
+- [**HU046** - Detalhar lista]()
+- [**HU047** - Adicionar problema individual na avaliação final]()

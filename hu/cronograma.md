@@ -19,6 +19,7 @@
 ### ✅ Sprint 2 (17/06/2025 - 24/06/2025)
 
 - [ ] [**HU021** - Iniciar avaliação final]()
+- [ ] [**HU047** - Adicionar problema individual na avaliação final]()
 - [ ] [**HU022** - Editar problemas para avaliação final]()
 - [ ] [**HU008** - Adicionar avaliadores ao projeto]()
 - [ ] [**HU028** - Listar categorias](./hu-028/read.md)
@@ -64,3 +65,4 @@
 - [ ] [**HU040** - Analisar sugestão de categoria]()
 - [ ] [**HU041** - Analisar sugestão de diretriz]()
 - [ ] [**HU042** - Visualizar listas]()
+- [ ] [**HU046** - Detalhar lista]()
