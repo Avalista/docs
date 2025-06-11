@@ -11,7 +11,7 @@
 - [ ] [**HU012** - Iniciar avaliação individual por categoria, diretriz e tela](./hu-012/read.md)
 - [ ] [**HU013** - Adicionar problema à avaliação individual](./hu-013/read.md)
 - [ ] [**HU014** - Visualizar progresso da avaliação por diretriz](./hu-014/read.md)
-- [ ] [**HU015** - Visualizar progresso da avaliação por categoria]()
+- [ ] [**HU015** - Visualizar progresso da avaliação por categoria](./hu-015/read.md)
 - [ ] [**HU016** - Finalizar avaliação de uma tela]()
 - [ ] [**HU017** - Finalizar avaliação individual]()
 - [ ] [**HU019** - Visualizar problemas individuais]()
