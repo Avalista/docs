@@ -19,3 +19,4 @@
   4. Após essa seleção inicial, o avaliador pode continuar avaliando:
   - A mesma categoria, diretriz e tela
   - Ou alternar entre outras categorias, diretrizes ou telas, a qualquer momento durante a avaliação
+- A avaliação só é considerada iniciada quando pelo menos um problema é adicionado à combinação de categoria, diretriz e tela selecionadas
