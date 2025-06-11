@@ -58,3 +58,9 @@ Todo problema registrado deve conter uma estimativa de esforço para correção,
 Essa estimativa auxilia na priorização e no planejamento das correções junto à equipe de desenvolvimento e a gerar estatísticas.
 
 ---
+
+## 🟦 RN007 - Finalização da avaliação individual
+
+Uma avaliação individual só pode ser finalizada se todas as interações com telas estiverem encerradas (ou seja, marcadas como finalizadas em todas as diretrizes de todas as categorias).
+
+---

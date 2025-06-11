@@ -19,7 +19,7 @@
 - [**HU013** - Adicionar problema à avaliação individual](./hu-013/read.md)
 - [**HU014** - Visualizar progresso da avaliação por diretriz](./hu-014/read.md)
 - [**HU015** - Visualizar progresso da avaliação por categoria](./hu-015/read.md)
-- [**HU016** - Finalizar avaliação de uma tela]()
+- [**HU016** - Finalizar avaliação de uma tela](./hu-016/read.md)
 - [**HU017** - Finalizar avaliação individual]()
 - [**HU018** - Visualizar avaliações individuais]()
 - [**HU019** - Visualizar problemas individuais]()
