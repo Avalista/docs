@@ -13,13 +13,13 @@
 - [ ] [**HU014** - Visualizar progresso da avaliação por diretriz](./hu-014/read.md)
 - [ ] [**HU015** - Visualizar progresso da avaliação por categoria](./hu-015/read.md)
 - [ ] [**HU016** - Finalizar avaliação de uma tela](./hu-016/read.md)
-- [ ] [**HU017** - Finalizar avaliação individual]()
-- [ ] [**HU019** - Visualizar problemas individuais]()
-- [ ] [**HU021** - Iniciar avaliação final]()
-- [ ] [**HU022** - Editar problemas para avaliação final]()
+- [ ] [**HU017** - Finalizar avaliação individual](./hu-017/read.md)
+- [ ] [**HU019** - Visualizar problemas individuais](./hu-019/read.md)
 
 ### ✅ Sprint 2 (17/06/2025 - 24/06/2025)
 
+- [ ] [**HU021** - Iniciar avaliação final]()
+- [ ] [**HU022** - Editar problemas para avaliação final]()
 - [ ] [**HU008** - Adicionar avaliadores ao projeto]()
 - [ ] [**HU028** - Listar categorias](./hu-028/read.md)
 - [ ] [**HU033** - Listar diretriz]()

@@ -64,3 +64,13 @@ Essa estimativa auxilia na priorização e no planejamento das correções junto
 Uma avaliação individual só pode ser finalizada se todas as interações com telas estiverem encerradas (ou seja, marcadas como finalizadas em todas as diretrizes de todas as categorias).
 
 ---
+
+## 🟦 RN008 - Prioridade do problema
+
+Todo problema registrado em uma avaliação individual deve conter um atributo de **prioridade**, que indica se o problema é considerado mais relevante ou urgente para análise posterior.  
+Esse atributo deve ser representado como um **valor booleano** (verdadeiro ou falso), onde:
+
+- `true` (verdadeiro) indica que o problema possui prioridade.
+- `false` (falso) indica que o problema não possui prioridade especial.
+
+---
