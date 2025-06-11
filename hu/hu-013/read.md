@@ -6,7 +6,7 @@
 
 **Eu quero** adicionar um problema à avaliação individual
 
-**Para que** eu possa registrar falhas de acessibilidade encontradas em uma tela conforme as diretrizes selecionadas
+**Para que** eu possa registrar falhas encontradas em uma tela conforme as diretrizes selecionadas
 
 ---
 
