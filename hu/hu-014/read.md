@@ -1,18 +1,17 @@
-### HU014 - Visualizar progresso da avaliação por diretriz
+### HU014 - Visualizar progresso da avaliação por tela
 
 ---
 
 **Como** avaliador autenticado
 
-**Eu quero** visualizar o progresso da minha avaliação individual por diretriz
+**Eu quero** visualizar o progresso da minha avaliação individual por tela
 
-**Para que** eu saiba quais diretrizes já foram avaliadas e quais ainda faltam avaliar em cada tela do projeto
+**Para que** eu saiba quais categorias e diretrizes já foram avaliadas e quais ainda faltam avaliar em cada tela do projeto
 
 ---
 
 ### Critérios de Aceitação
 
 - O avaliador deve conseguir ver uma lista de diretrizes agrupadas por categoria.
-- Cada diretriz deve exibir um indicador como:
-  1. Porcentagem de conclusão conforme a quantidade de telas finalizadas para aquela diretriz.
-  2. Um destaque visual (colorido) quando a diretriz estiver 100% concluída.
+- Cada categoria e deve exibir um destaque visual quando a categoria estiver concluida
+- Cada diretriz e deve exibir um destaque visual quando a diretriz estiver concluida

@@ -14,7 +14,7 @@
 
 - O avaliador deve conseguir ver uma lista de categorias com um indicador de progresso.
 - O progresso da categoria deve considerar o status de todas as diretrizes pertencentes a ela.
-- A categoria será considerada 100% concluída quando todas as suas diretrizes não tiverem mais telas pendentes para avaliação.
+- A categoria será considerada 100% concluída quando todas as suas diretrizes estiverem com o status **REVIEWED_OK** ou **REVIEWED_ISSUE**.
 - O indicador de progresso deve exibir:
   1. A porcentagem de conclusão da categoria com base nas diretrizes finalizadas.
   2. Um destaque visual (colorido) quando a categoria estiver 100% concluída

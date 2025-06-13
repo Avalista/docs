@@ -1,22 +1,22 @@
-### HU012 - Iniciar avaliação individual por categoria, diretriz e tela
+### HU012 - Iniciar avaliação individual por tela e categoria
 
 ---
 
 **Como** avaliador autenticado
 
-**Eu quero** iniciar uma avaliação individual selecionando categoria, diretriz e tela
+**Eu quero** iniciar uma avaliação individual selecionando tela e categoria
 
-**Para que** eu possa apontar problemas específicos relacionados a diretrizes em uma tela do projeto
+**Para que** eu possa apontar problemas específicos relacionados ao projeto
 
 ---
 
 ### Critérios de Aceitação
 
 - O processo de avaliação deve seguir os seguintes passos:
-  1. O avaliador deve selecionar uma categoria;
-  2. Em seguida, deve escolher uma diretriz dentro da categoria selecionada.
-  3. Depois, deve escolher uma tela vinculada ao projeto.
+  1. O avaliador deve selecionar a tela que deseja avaliar;
+  2. Em seguida, deve escolher uma categoria;
+  3. Então é habilitado para ele um formulário onde ele pode adicionar os problemas encontrados, selecionando assim a diretriz, e preenchendo os campos necessários do problema
   4. Após essa seleção inicial, o avaliador pode continuar avaliando:
-  - A mesma categoria, diretriz e tela
-  - Ou alternar entre outras categorias, diretrizes ou telas, a qualquer momento durante a avaliação
-- A avaliação só é considerada iniciada quando pelo menos um problema é adicionado à combinação de categoria, diretriz e tela selecionadas
+  - A mesma tela e categoria
+  - Ou alternar entre outras telas ou categorias, a qualquer momento durante a avaliação
+- Todos os demais itens(tela, categoria e diretriz) são marcados como não revisados, conforme [RN010](../../regras_de_negocio/read.md#-rn009---itens-de-avaliação-ao-iniciar-avaliação)

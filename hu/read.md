@@ -15,11 +15,11 @@
 - [**HU010** - Editar uma tela]()
 - [**HU011** - Excluir uma tela]()
 
-- [**HU012** - Iniciar avaliação individual por categoria, diretriz e tela](./hu-012/read.md)
+- [**HU012** - Iniciar avaliação individual por tela e categoria](./hu-012/read.md)
 - [**HU013** - Adicionar problema à avaliação individual](./hu-013/read.md)
-- [**HU014** - Visualizar progresso da avaliação por diretriz](./hu-014/read.md)
+- [**HU014** - Visualizar progresso da avaliação por tela](./hu-014/read.md)
 - [**HU015** - Visualizar progresso da avaliação por categoria](./hu-015/read.md)
-- [**HU016** - Finalizar avaliação de uma tela](./hu-016/read.md)
+- [**HU016** - Finalizar avaliação de uma categoria](./hu-016/read.md)
 - [**HU017** - Finalizar avaliação individual](./hu-017/read.md)
 - [**HU018** - Visualizar avaliações individuais]()
 - [**HU019** - Visualizar problemas individuais](./hu-019/read.md)
@@ -58,5 +58,6 @@
 
 - [**HU046** - Visualizar todos os projetos]()
 
-- [**HU046** - Detalhar lista]()
-- [**HU047** - Adicionar problema individual na avaliação final]()
+- [**HU047** - Detalhar lista]()
+- [**HU048** - Adicionar problema individual na avaliação final]()
+- [**HU049** - Listar telas]()

@@ -74,3 +74,27 @@ Esse atributo deve ser representado como um **valor booleano** (verdadeiro ou fa
 - `false` (falso) indica que o problema não possui prioridade especial.
 
 ---
+
+## 🟦 RN009 - Itens de avaliação ao iniciar avaliação
+
+Quando uma avaliação é iniciada, todos os itens(telas, categorias, diretrizes) recebem o status **NOT_REVIEWED**
+
+- `NOT_REVIEWED` Ainda não foi revisada pela avaliador.
+
+---
+
+## 🟦 RN010 - Problema adicionado para um item(tela, categoria, diretriz)
+
+Quando um problema é adicionado para um item(tela, categoria, diretriz), o item recebe o status **REVIEWED_ISSUE**, marcando que ja foi avaliado nessas circunstancias, mas ainda é possíveis adicionar mais problemas para o mesmo item.
+
+- `REVIEWED_ISSUE` Revisado com pelo menos um problema adicionado.
+
+---
+
+## 🟦 RN011 - Item(tela, categoria, diretriz) foi avaliado, porém nao encontrou nenhum problema.
+
+Quando um item(tela, categoria, diretriz) é avaliado, mas não é encontrado nenhuma problema para ele, pode ser marcado como "revisado", recebendo o status **REVIEWED_OK**
+
+- `REVIEWED_ISSUE` Revisado, mas sem problemas encontrados.
+
+---
