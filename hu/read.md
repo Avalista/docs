@@ -50,14 +50,11 @@
 - [**HU040** - Analisar sugestão de categoria]()
 - [**HU041** - Analisar sugestão de diretriz]()
 - [**HU042** - Visualizar listas]()
-
 - [**HU043** - Listagem de avalistas]()
-
 - [**HU044** - Visualizar minhas estatísticas de avaliações]()
 - [**HU045** - Visualizar estatísticas de avaliações do projeto]()
-
 - [**HU046** - Visualizar todos os projetos]()
-
 - [**HU047** - Detalhar lista]()
 - [**HU048** - Adicionar problema individual na avaliação final]()
 - [**HU049** - Listar telas]()
+- [**HU049** - Marcar diretrizes sem problemas como revisada]()

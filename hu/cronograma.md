@@ -65,4 +65,4 @@
 - [ ] [**HU040** - Analisar sugestão de categoria]()
 - [ ] [**HU041** - Analisar sugestão de diretriz]()
 - [ ] [**HU042** - Visualizar listas]()
-- [ ] [**HU046** - Detalhar lista]()
+- [ ] [**HU047** - Detalhar lista]()
