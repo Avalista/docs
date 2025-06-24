@@ -2,12 +2,12 @@
 
 ### ✅ Sprint 1 (03/06/2025 - 17/06/2025)
 
-- [ ] [**HU001** - Criar conta](./hu-001/read.md)
-- [ ] [**HU002** - Fazer login](./hu-002/read.md)
-- [ ] [**HU004** - Criar projeto](./hu-004/read.md)
-- [ ] [**HU005** - Visualizar meus projetos](./hu-005/read.md)
-- [ ] [**HU006** - Detalhar meu projeto](./hu-006/read.md)
-- [ ] [**HU009** - Cadastrar uma tela](./hu-009/read.md)
+- [✅] [**HU001** - Criar conta](./hu-001/read.md)
+- [✅] [**HU002** - Fazer login](./hu-002/read.md)
+- [✅] [**HU004** - Criar projeto](./hu-004/read.md)
+- [✅] [**HU005** - Visualizar meus projetos](./hu-005/read.md)
+- [✅] [**HU006** - Detalhar meu projeto](./hu-006/read.md)
+- [✅] [**HU009** - Cadastrar uma tela](./hu-009/read.md)
 - [ ] [**HU012** - Iniciar avaliação individual por tela e categoria](./hu-012/read.md)
 - [ ] [**HU013** - Adicionar problema à avaliação individual](./hu-013/read.md)
 - [ ] [**HU014** - Visualizar progresso da avaliação por tela](./hu-014/read.md)
