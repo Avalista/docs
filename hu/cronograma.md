@@ -30,10 +30,10 @@
 
 ### ✅ Sprint 3 (24/06/2025 - 01/07/2025)
 
-- [ ] [**HU026** - Cadastrar categoria](./hu-026/read.md)
-- [ ] [**HU027** - Editar categoria](./hu-027/read.md)
-- [ ] [**HU029** - Detalhar categoria](./hu-029/read.md)
-- [ ] [**HU030** - Deletar categoria](./hu-030/read.md)
+- [✅] [**HU026** - Cadastrar categoria](./hu-026/read.md)
+- [✅] [**HU027** - Editar categoria](./hu-027/read.md)
+- [✅] [**HU029** - Detalhar categoria](./hu-029/read.md)
+- [✅] [**HU030** - Deletar categoria](./hu-030/read.md)
 - [ ] [**HU031** - Cadastrar diretriz]()
 - [ ] [**HU032** - Editar diretriz]()
 - [ ] [**HU034** - Detalhar diretriz]()
