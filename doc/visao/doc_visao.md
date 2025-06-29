@@ -39,7 +39,7 @@ Uma plataforma web gamificada, o Avalista, que organiza e automatiza o processo 
 
 | Nome        | Descrição                       | Responsabilidade                                                     |
 | :---------- | :------------------------------ | :------------------------------------------------------------------- |
-| Avaliador   | Alunos desenvolvedores e designers. | Avaliar os projetos com base nas heurísticas, fornecer feedback e sugestões. |
+| Avalista   | Alunos desenvolvedores e designers. | Avaliar os projetos com base nas heurísticas, fornecer feedback e sugestões. |
 | Administrador| Gestor do sistema                 | Gerenciar usuários, projetos e configurações do sistema.           |
 
 ---
@@ -50,7 +50,7 @@ Os usuários poderão acessar a aplicação por meio de qualquer dispositivo com
 ---
 
 ## Principais Necessidades dos Usuários
-**Avaliadores:** Precisam de uma ferramenta que permita identificar e documentar violações de heurísticas com facilidade, incluindo o upload de imagens e a descrição de melhorias. Além disso, terão acesso a métricas detalhadas sobre as violações registradas, permitindo uma análise mais precisa e facilitando a priorização e resolução dos problemas identificados.
+**Avalista:** Precisam de uma ferramenta que permita identificar e documentar violações de heurísticas com facilidade, incluindo o upload de imagens e a descrição de melhorias. Além disso, terão acesso a métricas detalhadas sobre as violações registradas, permitindo uma análise mais precisa e facilitando a priorização e resolução dos problemas identificados.
 
 **Administradores:** Necessitam gerenciar usuários, projetos e manter a integridade das informações cadastradas.
 
@@ -70,7 +70,7 @@ Ambas as ferramentas validam a necessidade de soluções na área, mas nenhuma a
 ## Visão Geral do Produto
 O Avalista é uma plataforma web projetada para ser a ferramenta padrão de apoio ao ensino e à prática da avaliação heurística de interfaces no IFRN e, futuramente, para um público mais amplo. A visão do produto é criar um ecossistema onde a avaliação deixa de ser uma obrigação e se torna uma atividade de aprendizado interativa.
 
-A plataforma permitirá que usuários (avaliadores) criem e gerenciem seus projetos de avaliação, **adicionem as telas (imagens) a serem analisadas** e, no ciclo completo, registrem as violações das diretrizes da Lista Eureca de forma estruturada. A ferramenta fornecerá feedback visual e, através de mecânicas de gamificação como emblemas e estatísticas, buscará engajar e motivar o usuário a aprimorar suas habilidades de avaliação. Para os administradores, a plataforma oferecerá controle sobre as diretrizes e categorias, garantindo a integridade e a evolução do conteúdo. O resultado final para o avaliador será um relatório claro e objetivo, que não apenas documenta os problemas, mas também facilita a tomada de decisão para as melhorias.
+A plataforma permitirá que usuários (Avalista) criem e gerenciem seus projetos de avaliação, **adicionem as telas (imagens) a serem analisadas** e, no ciclo completo, registrem as violações das diretrizes da Lista Eureca de forma estruturada. A ferramenta fornecerá feedback visual e, através de mecânicas de gamificação como emblemas e estatísticas, buscará engajar e motivar o usuário a aprimorar suas habilidades de avaliação. Para os administradores, a plataforma oferecerá controle sobre as diretrizes e categorias, garantindo a integridade e a evolução do conteúdo. O resultado final para o avalista será um relatório claro e objetivo, que não apenas documenta os problemas, mas também facilita a tomada de decisão para as melhorias.
 
 ---
 
@@ -84,23 +84,23 @@ A plataforma permitirá que usuários (avaliadores) criem e gerenciem seus proje
 
 | Código | Nome                                | Descrição                                                                                                                                        | Prioridade  |
 | :----- | :---------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- | :---------- |
-| F01    | Autenticação                        | O sistema deve permitir efetuar login e cadastro de usuários com diferentes permissões (Administrador, Avaliador).                               | Essencial   |
+| F01    | Autenticação                        | O sistema deve permitir efetuar login e cadastro de usuários com diferentes permissões (Administrador, Avalista).                               | Essencial   |
 | F02    | Adicionar Projetos                  | O sistema deve permitir criar, editar e excluir projetos, contendo nome, descrição e marca gráfica.                                              | Essencial   |
 | F03    | Gerenciar Telas do Projeto          | O sistema deve permitir que o usuário adicione, edite e exclua as telas (imagens) a serem avaliadas dentro de um projeto.                        | Essencial   |
 | F04    | Upload de Imagens                   | O sistema deve permitir o upload das imagens que representam as telas do projeto a ser avaliado.                                                 | Essencial   |
-| F05    | Categorizar Violações               | O sistema deve permitir que o avaliador associe violações encontradas às diretrizes da lista Eureca.                                             | Essencial   |
-| F06    | Estimar o Tempo de Resolução        | O sistema deve permitir que o avaliador estime, em horas e minutos, o tempo necessário para corrigir cada problema.                              | Essencial   |
-| F07    | Avaliação de Esforço                | O sistema deve permitir que o avaliador estime o esforço necessário para corrigir cada problema.                                                 | Essencial   |
-| F08    | Proposta de Melhoria                | O sistema deve permitir que o avaliador descreva sugestões de melhorias para resolver os problemas identificados.                                | Essencial   |
-| F09    | Avaliação por Múltiplos Avaliadores | O sistema deve permitir que de 3 a 5 avaliadores avaliem o mesmo projeto de forma independente.                                                  | Essencial   |
-| F10    | Consolidação de Avaliações          | O sistema deve permitir que os avaliadores, após suas avaliações individuais, consolidem os resultados em uma única avaliação final.             | Essencial   |
-| F11    | Identificação de Erros Comuns       | O sistema deve permitir a identificação dos erros que foram encontrados por mais de um avaliador.                                                | Essencial   |
+| F05    | Categorizar Violações               | O sistema deve permitir que o avalista associe violações encontradas às diretrizes da lista Eureca.                                             | Essencial   |
+| F06    | Estimar o Tempo de Resolução        | O sistema deve permitir que o avalista estime, em horas e minutos, o tempo necessário para corrigir cada problema.                              | Essencial   |
+| F07    | Avaliação de Esforço                | O sistema deve permitir que o avalista estime o esforço necessário para corrigir cada problema.                                                 | Essencial   |
+| F08    | Proposta de Melhoria                | O sistema deve permitir que o avalista descreva sugestões de melhorias para resolver os problemas identificados.                                | Essencial   |
+| F09    | Avaliação por Múltiplos Avalistas | O sistema deve permitir que de 3 a 5 avalista avaliem o mesmo projeto de forma independente.                                                  | Essencial   |
+| F10    | Consolidação de Avaliações          | O sistema deve permitir que os avalistas, após suas avaliações individuais, consolidem os resultados em uma única avaliação final.             | Essencial   |
+| F11    | Identificação de Erros Comuns       | O sistema deve permitir a identificação dos erros que foram encontrados por mais de um avalista.                                                | Essencial   |
 | F12    | Resumo da Avaliação Consolidada     | O sistema deve gerar um resumo da avaliação final, indicando os erros consensuais, erros únicos e soluções propostas.                            | Essencial   |
 | F13    | Controle de Status da Avaliação     | O sistema deve permitir que um projeto tenha status como: "Em Avaliação Individual", "Em Consolidação" e "Avaliação Consolidada".                | Essencial   |
 | F14    | Coleta de Métricas do Projeto       | O sistema deveria coletar métricas detalhadas por projeto (ex: diretrizes mais violadas, tempo/esforço total).                                   | Importante  |
-| F15    | Coleta de Métricas do Avaliador     | O sistema deveria coletar métricas detalhadas do avaliador (ex: projetos com maior tempo de resolução, categoria mais comum).                    | Importante  |
-| F16    | Visualização de Métricas            | O sistema deveria permitir que o avaliador visualize as métricas coletadas em gráficos e classificações.                                         | Importante  |
-| F17    | Resolver a Diretriz                 | O sistema poderia permitir que o avaliador marque uma diretriz como resolvida e faça upload de uma foto mostrando a resolução.                   | Desejável   |
+| F15    | Coleta de Métricas do avalista     | O sistema deveria coletar métricas detalhadas do avalista (ex: projetos com maior tempo de resolução, categoria mais comum).                    | Importante  |
+| F16    | Visualização de Métricas            | O sistema deveria permitir que o avalista visualize as métricas coletadas em gráficos e classificações.                                         | Importante  |
+| F17    | Resolver a Diretriz                 | O sistema poderia permitir que o avalista marque uma diretriz como resolvida e faça upload de uma foto mostrando a resolução.                   | Desejável   |
 | F18    | Seção Educacional                   | O sistema deveria oferecer uma seção educativa com materiais sobre princípios de design de interfaces.                                           | Opcional    |
 
 ---
