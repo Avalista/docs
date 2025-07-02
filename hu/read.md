@@ -15,7 +15,7 @@
 - [**HU010** - Editar uma tela]()
 - [**HU011** - Excluir uma tela]()
 
-- [**HU012** - Iniciar avaliação individual por tela e categoria](./hu-012/read.md)
+- [**HU012** - Iniciar avaliação individual por tela, categoria e diretriz](./hu-012/read.md)
 - [**HU013** - Adicionar problema à avaliação individual](./hu-013/read.md)
 - [**HU014** - Visualizar progresso da avaliação por tela](./hu-014/read.md)
 - [**HU015** - Visualizar progresso da avaliação por categoria](./hu-015/read.md)
