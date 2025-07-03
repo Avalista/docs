@@ -12,7 +12,8 @@
 
 ### Critérios de Aceitação
 
-- O avaliador deve conseguir registrar um problema informando:
+- O avaliador deve seleciona a tela, categoria e diretriz para então;
+- conseguir registrar um problema informando:
   1. Descrição clara do problema identificado (Obrigatório);
   2. A gravidade do problema, conforme [RN005](../../regras_de_negocio/read.md#-rn005---níveis-de-gravidade-do-problema)(Obrigatório);
   3. O esforço da alteração, conforme [RN006](../../regras_de_negocio/read.md#-rn006---níveis-de-esforço-da-alteração)(Obrigatório);
