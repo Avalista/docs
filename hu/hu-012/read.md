@@ -14,7 +14,8 @@
 
 - O processo de avaliação deve seguir os seguintes passos:
   1. O avaliador clica no botão "Iniciar avaliação individual";
-  2. Então o avaliador pode seguir para hu013, para adicionar problemas a avaliação
+  2. Então o avaliador e direcionado para a avaliação indidividual com todos os itens de avaliações não preenchidos com problemas.
+  3. Então o avaliador pode seguir para hu013, para adicionar problemas a avaliação
 - Todos os itens(tela, categoria e diretriz) são marcados como não revisados, conforme [RN010](../../regras_de_negocio/read.md#-rn009---itens-de-avaliação-ao-iniciar-avaliação)
 
 ### Contato
